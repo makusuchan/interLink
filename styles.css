@@ -1,0 +1,138 @@
+html {
+    font-family: "Poppins", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.header {
+    position: fixed;
+    background-color: #262626;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.header .userName {
+    padding-left: 10px;
+}
+
+.navbar {
+    padding-left: 30px;
+}
+
+.navbar a:hover {
+    font-weight: 700;
+}
+
+.navbar a:active {
+    font-weight: 700;
+}
+
+.sidebar  {
+    display: none;
+    background-color: #262626;
+    position: fixed;
+    padding: 20px;
+    white-space: nowrap;
+    right: 0px;
+    top: 50px;
+}
+
+.sidebar img {
+    max-width: 100px;
+    border-radius: 100px;
+}
+
+.show-sidebar {
+    display: block;
+}
+
+.yourProfile, .yourResume, .yourMessages, .yourBookmarks {
+    padding: 10px;
+}
+
+.jobContainer {
+    overflow-y: auto; /* Enable vertical scrolling */
+    margin-top: 80px;
+}
+
+.job {
+    padding: 20px;
+    margin-left: 30px;
+    margin-top: 20px;
+    background-color: #c7c7c7;
+    max-width: 500px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: border 0.3s;
+}
+
+.job:active {
+    border: 2px solid #262626; 
+}
+
+.job * .jobDescription {
+    font-size: small;
+}
+
+.jobTags {
+    display: flex;
+    font-size: small;
+}
+
+.jobTags .jobTag {
+    padding: 10px;
+    padding-right: 10px;
+    background-color: #262626;
+    border-radius: 50px;
+    color: white;
+    max-width: fit-content;
+    margin-right: 10px;
+    align-items: center;
+}
+
+.userProfile {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column; /* Change direction to column */
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 20px;
+}
+
+.userProfile .profilePic img {
+    max-width: 150px;
+    border-radius: 100px;
+}
+
+.additionalInfo {
+    margin-top: 20px;
+}
+
+.additionalInfo .emailInfo, .phoneInfo, .locationInfo {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.additionalInfo i {
+    margin-right: 10px;
+}
+
+.editInfo {
+    font-size: small;
+    margin-top: 10px;
+}

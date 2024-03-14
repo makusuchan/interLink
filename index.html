@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <link rel = "stylesheet" href = "styles.css">
+    <link rel = "stylesheet" href = "https://fonts.googleapis.com/css?family=Poppins">
+    <title>Home</title>
+</head>
+
+<body>
+    <header class = "header">
+        <a href = "index.html" class = "logo" style="color: white;">internLink</a>
+        <nav class = "navbar">
+            <a href = "messages.html" style="color: white;">Messages</a>
+            <a href = "" class = "userName" style="color: white;">User</a>
+            <div class = "sidebar">
+
+                <div class = "profilePic"><img src = "assets/iconProfile-square.jpg"></div>
+
+                <div class = "yourProfile"><a href = "userProfile.html" style="color: white;"> Your Profile</a></div>
+                <div class = "yourResume"><a href = "" style="color: white;">Resume Builder</a></div>
+                <div class = "yourMessages"><a href = "" style="color: white;">Messages</a></div>
+                <div class = "yourBookmarks"><a href = "" style="color: white;">Bookmarks</a></div>
+            </div>
+        </nav>
+    </header>
+
+    <div class = "jobContainer">
+        <div class = "job" onclick = "toggleActive(this)">
+            <h3>Graphic Designer Position</h3>
+            <p>Design Media | Internship</p>
+            <br>
+            <p class = "jobDescription">We're seeking a Graphic Designer to help elevate our brand and create compelling visual content for our e-commerce initiatives, including A+ Content optimization. As a Graphic Designer, you will play a crucial role in crafting visuals that resonate with our customers and drive engagement on our platform.</p>
+            <br>
+            <div class = "jobTags">
+                <p class = "jobTag">Adobe Photoshop</p>
+                <p class = "jobTag">Graphic Design</p>
+                <p class = "jobTag">Adobe XD</p>
+            </div>
+        </div>
+
+        <div class = "job" onclick = "toggleActive(this)">
+            <h3>Marketing Assistant</h3>
+            <p>Fresh Ads Limited | Fresh Graduates</p>
+            <br>
+            <p class = "jobDescription">We are seeking a full-time in-house graphics / production art professional at a leading North American promotional products distributor. This individual should possess a great sense of design along with excellent prepress, type and color skills. Proficiency with Adobe Suite (Illustrator/Illustrator/InDesign) is a MUST ...</p>
+            <br>
+            <div class = "jobTags">
+                <p class = "jobTag">Adobe Photoshop</p>
+                <p class = "jobTag">Graphic Design</p>
+                <p class = "jobTag">Adobe XD</p>
+            </div>
+        </div>
+
+        <div class="job" onclick = "toggleActive(this)">
+            <h3>Software Engineer</h3>
+            <p>Tech Innovations Inc. | Full-time</p>
+            <br>
+            <p class="jobDescription">We are looking for a highly skilled and motivated Software Engineer to join our dynamic team. As a Software Engineer, you will be responsible for designing, developing, and implementing software solutions to meet our clients' needs. You should have strong problem-solving skills and a passion for technology.</p>
+            <br>
+            <div class="jobTags">
+                <p class="jobTag">Java</p>
+                <p class="jobTag">Python</p>
+                <p class="jobTag">JavaScript</p>
+            </div>
+        </div>
+        
+        <div class="job" onclick = "toggleActive(this)">
+            <h3>Marketing Coordinator</h3>
+            <p>Global Marketing Agency | Contract</p>
+            <br>
+            <p class="jobDescription">We are seeking a creative and organized Marketing Coordinator to support our marketing team. The ideal candidate will have experience in executing marketing campaigns, managing social media accounts, and analyzing marketing data. Strong communication and multitasking skills are essential for this role.</p>
+            <br>
+            <div class="jobTags">
+                <p class="jobTag">Digital Marketing</p>
+                <p class="jobTag">Social Media Management</p>
+                <p class="jobTag">Analytics</p>
+            </div>
+        </div>
+        
+        <div class="job" onclick = "toggleActive(this)">
+            <h3>Customer Service Representative</h3>
+            <p>XYZ Corporation | Part-time</p>
+            <br>
+            <p class="jobDescription">We are looking for a friendly and customer-focused individual to join our customer service team. As a Customer Service Representative, you will be responsible for handling inquiries, resolving customer complaints, and providing exceptional service to our clients. Strong communication and problem-solving skills are a must.</p>
+            <br>
+            <div class="jobTags">
+                <p class="jobTag">Customer Support</p>
+                <p class="jobTag">Communication</p>
+                <p class="jobTag">Problem-solving</p>
+            </div>
+        </div>
+        
+    </div>
+
+    <script src = "script.js"></script>
+
+</body>
+
+</html>
